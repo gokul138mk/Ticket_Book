@@ -1,0 +1,115 @@
+.hero {
+    background-color: #1fb9d88d;
+    color: white;
+    text-align: center;
+    padding: 100px 20px 60px;
+    margin-top: 60px;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn-primary {
+    background-color: #f36f6f;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e03b3a;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+  }
+  
+  .feature {
+    background-color: #0b0b0b91;
+    color: aliceblue;
+    flex: 1 1 30%;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #030303;
+    border-radius: 8px;
+  }
+  
+  .feature h2 {
+    margin-bottom: 10px;
+  }
+  
+  .cta {
+    background-color: #c92265ab;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .cta h2 {
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    background-color:rgba(236, 161, 24, 0.626);
+    color: white;
+    text-align: center;
+     padding: 1px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  @media (max-width: 600px) {
+    .footer{
+      background-color:rgba(204, 195, 179, 0.767);
+      color: rgb(0, 0, 0);
+      
+    }
+  }
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  
+    .features {
+      flex-direction: column;
+    }
+  
+    .feature {
+      margin: 20px 0;
+    }
+  }
+  .secure-img{
+    height: 10ppx;
+    width: 50%;
+  }
+
+  .btn-primary{
+    background-color:rgba(255, 0, 21, 0.874) ;
+    box-shadow: 0 6px 12px rgba(147, 123, 123, 0.44);
+    border-radius: 0.75rem;
+    border-color: #e03b3a;
+  }
+  .btn-primary:hover {
+    background-color:#ffffffef;
+    color: #333333;
+    border-color: #f5f3f3;
+    transform: translateY(-2px);
+  }
